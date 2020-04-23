@@ -3,19 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E247EB42244341D00044CB4E /* GamesHub.swift in Sources */ = {isa = PBXBuildFile; fileRef = E247EB41244341D00044CB4E /* GamesHub.swift */; };
+		E247EB442443501D0044CB4E /* GameTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E247EB432443501C0044CB4E /* GameTest.swift */; };
+		E247EB482443C48F0044CB4E /* RPS_Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E247EB472443C48F0044CB4E /* RPS_Main.swift */; };
+		E247EB4A2443C6350044CB4E /* UIStackView+GaryGames.swift in Sources */ = {isa = PBXBuildFile; fileRef = E247EB492443C6350044CB4E /* UIStackView+GaryGames.swift */; };
 		E2707A6A244137D5005D2162 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2707A69244137D5005D2162 /* AppDelegate.swift */; };
 		E2707A6C244137D5005D2162 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2707A6B244137D5005D2162 /* SceneDelegate.swift */; };
 		E2707A6E244137D5005D2162 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2707A6D244137D5005D2162 /* ViewController.swift */; };
 		E2707A71244137D5005D2162 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2707A6F244137D5005D2162 /* Main.storyboard */; };
 		E2707A73244137D6005D2162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2707A72244137D6005D2162 /* Assets.xcassets */; };
 		E2707A76244137D6005D2162 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2707A74244137D6005D2162 /* LaunchScreen.storyboard */; };
+		E2707A8624413A0A005D2162 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2707A7E24413A0A005D2162 /* Montserrat-Bold.ttf */; };
+		E2707A8724413A0A005D2162 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2707A7F24413A0A005D2162 /* Montserrat-ExtraBold.ttf */; };
+		E2707A8824413A0A005D2162 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2707A8024413A0A005D2162 /* Montserrat-Medium.ttf */; };
+		E2707A8924413A0A005D2162 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2707A8124413A0A005D2162 /* Montserrat-Regular.ttf */; };
+		E2707A8A24413A0A005D2162 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2707A8224413A0A005D2162 /* Montserrat-Light.ttf */; };
+		E2707A8B24413A0A005D2162 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2707A8324413A0A005D2162 /* Montserrat-LightItalic.ttf */; };
+		E2707A8C24413A0A005D2162 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2707A8424413A0A005D2162 /* Montserrat-Italic.ttf */; };
+		E2707A8D24413A0A005D2162 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2707A8524413A0A005D2162 /* Montserrat-SemiBoldItalic.ttf */; };
+		E2707A9024413BA7005D2162 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2707A8F24413BA7005D2162 /* MainPageViewController.swift */; };
+		E2707A9224413BD1005D2162 /* MainPageCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2707A9124413BD1005D2162 /* MainPageCollectionView.swift */; };
+		E2707A9524413D45005D2162 /* MainPageGamesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2707A9424413D45005D2162 /* MainPageGamesModel.swift */; };
+		E2707A9724413E47005D2162 /* MainPageGamesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2707A9624413E47005D2162 /* MainPageGamesCell.swift */; };
+		E2707A9A24413E85005D2162 /* GameType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2707A9924413E85005D2162 /* GameType.swift */; };
+		FFB20CE762FAC0ABB23670AE /* Pods_Gary_Games.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B8B48CD330D21636023FB6F /* Pods_Gary_Games.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B8B48CD330D21636023FB6F /* Pods_Gary_Games.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gary_Games.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7DFE76F2B92FFF941741F1F /* Pods-Gary Games.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gary Games.debug.xcconfig"; path = "Target Support Files/Pods-Gary Games/Pods-Gary Games.debug.xcconfig"; sourceTree = "<group>"; };
+		E247EB41244341D00044CB4E /* GamesHub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesHub.swift; sourceTree = "<group>"; };
+		E247EB432443501C0044CB4E /* GameTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTest.swift; sourceTree = "<group>"; };
+		E247EB472443C48F0044CB4E /* RPS_Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPS_Main.swift; sourceTree = "<group>"; };
+		E247EB492443C6350044CB4E /* UIStackView+GaryGames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+GaryGames.swift"; sourceTree = "<group>"; };
 		E2707A66244137D5005D2162 /* Gary Games.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gary Games.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2707A69244137D5005D2162 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2707A6B244137D5005D2162 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +48,20 @@
 		E2707A72244137D6005D2162 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2707A75244137D6005D2162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2707A77244137D6005D2162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2707A7E24413A0A005D2162 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		E2707A7F24413A0A005D2162 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		E2707A8024413A0A005D2162 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		E2707A8124413A0A005D2162 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		E2707A8224413A0A005D2162 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		E2707A8324413A0A005D2162 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		E2707A8424413A0A005D2162 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		E2707A8524413A0A005D2162 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		E2707A8F24413BA7005D2162 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		E2707A9124413BD1005D2162 /* MainPageCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageCollectionView.swift; sourceTree = "<group>"; };
+		E2707A9424413D45005D2162 /* MainPageGamesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageGamesModel.swift; sourceTree = "<group>"; };
+		E2707A9624413E47005D2162 /* MainPageGamesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageGamesCell.swift; sourceTree = "<group>"; };
+		E2707A9924413E85005D2162 /* GameType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameType.swift; sourceTree = "<group>"; };
+		E5E6B63AC16C276B42B5E542 /* Pods-Gary Games.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gary Games.release.xcconfig"; path = "Target Support Files/Pods-Gary Games/Pods-Gary Games.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +69,62 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFB20CE762FAC0ABB23670AE /* Pods_Gary_Games.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17B5E454BFE41B52602FBC8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7DFE76F2B92FFF941741F1F /* Pods-Gary Games.debug.xcconfig */,
+				E5E6B63AC16C276B42B5E542 /* Pods-Gary Games.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A10160C8D211FDD45830F634 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B8B48CD330D21636023FB6F /* Pods_Gary_Games.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E247EB40244341AF0044CB4E /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				E247EB41244341D00044CB4E /* GamesHub.swift */,
+				E247EB492443C6350044CB4E /* UIStackView+GaryGames.swift */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		E247EB452443C4810044CB4E /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				E247EB462443C4870044CB4E /* RPS */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		E247EB462443C4870044CB4E /* RPS */ = {
+			isa = PBXGroup;
+			children = (
+				E247EB472443C48F0044CB4E /* RPS_Main.swift */,
+			);
+			path = RPS;
+			sourceTree = "<group>";
+		};
 		E2707A5D244137D5005D2162 = {
 			isa = PBXGroup;
 			children = (
 				E2707A68244137D5005D2162 /* Gary Games */,
 				E2707A67244137D5005D2162 /* Products */,
+				17B5E454BFE41B52602FBC8A /* Pods */,
+				A10160C8D211FDD45830F634 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +139,11 @@
 		E2707A68244137D5005D2162 /* Gary Games */ = {
 			isa = PBXGroup;
 			children = (
+				E247EB452443C4810044CB4E /* Games */,
+				E247EB40244341AF0044CB4E /* Misc */,
+				E2707A9824413E79005D2162 /* Models */,
+				E2707A8E24413B8D005D2162 /* Main */,
+				E2707A7D244139F7005D2162 /* Fonts */,
 				E2707A69244137D5005D2162 /* AppDelegate.swift */,
 				E2707A6B244137D5005D2162 /* SceneDelegate.swift */,
 				E2707A6D244137D5005D2162 /* ViewController.swift */,
@@ -63,8 +151,43 @@
 				E2707A72244137D6005D2162 /* Assets.xcassets */,
 				E2707A74244137D6005D2162 /* LaunchScreen.storyboard */,
 				E2707A77244137D6005D2162 /* Info.plist */,
+				E247EB432443501C0044CB4E /* GameTest.swift */,
 			);
 			path = "Gary Games";
+			sourceTree = "<group>";
+		};
+		E2707A7D244139F7005D2162 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E2707A7E24413A0A005D2162 /* Montserrat-Bold.ttf */,
+				E2707A7F24413A0A005D2162 /* Montserrat-ExtraBold.ttf */,
+				E2707A8424413A0A005D2162 /* Montserrat-Italic.ttf */,
+				E2707A8224413A0A005D2162 /* Montserrat-Light.ttf */,
+				E2707A8324413A0A005D2162 /* Montserrat-LightItalic.ttf */,
+				E2707A8024413A0A005D2162 /* Montserrat-Medium.ttf */,
+				E2707A8124413A0A005D2162 /* Montserrat-Regular.ttf */,
+				E2707A8524413A0A005D2162 /* Montserrat-SemiBoldItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E2707A8E24413B8D005D2162 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E2707A8F24413BA7005D2162 /* MainPageViewController.swift */,
+				E2707A9124413BD1005D2162 /* MainPageCollectionView.swift */,
+				E2707A9424413D45005D2162 /* MainPageGamesModel.swift */,
+				E2707A9624413E47005D2162 /* MainPageGamesCell.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E2707A9824413E79005D2162 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E2707A9924413E85005D2162 /* GameType.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +197,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2707A7A244137D6005D2162 /* Build configuration list for PBXNativeTarget "Gary Games" */;
 			buildPhases = (
+				69EE2CDFB7D89541E4B8061C /* [CP] Check Pods Manifest.lock */,
 				E2707A62244137D5005D2162 /* Sources */,
 				E2707A63244137D5005D2162 /* Frameworks */,
 				E2707A64244137D5005D2162 /* Resources */,
+				7D1CACE2C195A3D306836246 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,22 +250,81 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2707A8724413A0A005D2162 /* Montserrat-ExtraBold.ttf in Resources */,
+				E2707A8D24413A0A005D2162 /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				E2707A8624413A0A005D2162 /* Montserrat-Bold.ttf in Resources */,
+				E2707A8924413A0A005D2162 /* Montserrat-Regular.ttf in Resources */,
 				E2707A76244137D6005D2162 /* LaunchScreen.storyboard in Resources */,
+				E2707A8A24413A0A005D2162 /* Montserrat-Light.ttf in Resources */,
+				E2707A8C24413A0A005D2162 /* Montserrat-Italic.ttf in Resources */,
 				E2707A73244137D6005D2162 /* Assets.xcassets in Resources */,
+				E2707A8824413A0A005D2162 /* Montserrat-Medium.ttf in Resources */,
 				E2707A71244137D5005D2162 /* Main.storyboard in Resources */,
+				E2707A8B24413A0A005D2162 /* Montserrat-LightItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		69EE2CDFB7D89541E4B8061C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gary Games-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D1CACE2C195A3D306836246 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gary Games/Pods-Gary Games-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gary Games/Pods-Gary Games-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Gary Games/Pods-Gary Games-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E2707A62244137D5005D2162 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2707A9224413BD1005D2162 /* MainPageCollectionView.swift in Sources */,
+				E2707A9024413BA7005D2162 /* MainPageViewController.swift in Sources */,
 				E2707A6E244137D5005D2162 /* ViewController.swift in Sources */,
+				E2707A9724413E47005D2162 /* MainPageGamesCell.swift in Sources */,
+				E247EB4A2443C6350044CB4E /* UIStackView+GaryGames.swift in Sources */,
+				E2707A9524413D45005D2162 /* MainPageGamesModel.swift in Sources */,
 				E2707A6A244137D5005D2162 /* AppDelegate.swift in Sources */,
 				E2707A6C244137D5005D2162 /* SceneDelegate.swift in Sources */,
+				E247EB442443501D0044CB4E /* GameTest.swift in Sources */,
+				E2707A9A24413E85005D2162 /* GameType.swift in Sources */,
+				E247EB482443C48F0044CB4E /* RPS_Main.swift in Sources */,
+				E247EB42244341D00044CB4E /* GamesHub.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +466,7 @@
 		};
 		E2707A7B244137D6005D2162 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7DFE76F2B92FFF941741F1F /* Pods-Gary Games.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -294,12 +479,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "online.tomk.Gary-Games";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		E2707A7C244137D6005D2162 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5E6B63AC16C276B42B5E542 /* Pods-Gary Games.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -312,7 +498,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "online.tomk.Gary-Games";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

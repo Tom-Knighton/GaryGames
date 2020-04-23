@@ -1,0 +1,22 @@
+PODS:
+  - SDWebImage (5.7.2):
+    - SDWebImage/Core (= 5.7.2)
+  - SDWebImage/Core (5.7.2)
+  - SwiftSignalRClient (0.6.3)
+
+DEPENDENCIES:
+  - SDWebImage
+  - SwiftSignalRClient
+
+SPEC REPOS:
+  trunk:
+    - SDWebImage
+    - SwiftSignalRClient
+
+SPEC CHECKSUMS:
+  SDWebImage: d9ea4959d99c52276dfada481987018fcaea3d58
+  SwiftSignalRClient: d1d4c7fa9935946cc30507c7eb462f722bd3a787
+
+PODFILE CHECKSUM: 4416fca1efc02d3f2a94a3074d7666c3648aca85
+
+COCOAPODS: 1.8.4
